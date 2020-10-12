@@ -1,0 +1,74 @@
+.bal{
+	background-color:rgb(39, 127, 185);
+	display:inline-block;
+	text-align:center;
+	border:10px solid rgb(77, 22, 22);
+	border-radius:5px;
+	font-size: 30px;
+}
+.bal img{
+	height:400px;
+	width:400px;
+	border-radius:20px;
+}
+.square{
+	margin-left: 33%;
+	height:300px;
+	width:600px;
+	background-color:rgb(10, 105, 10);
+	overflow:hidden;
+}
+.circle{
+	margin-left: 33%;
+	height:200px;
+	width:200px;
+	background-color:rgb(180, 6, 6);
+	border-radius:50%;
+	margin-top:50px;
+	margin-left:200px;
+	overflow:hidden;
+}
+.zoom3{
+	display:inline-flex;
+}
+.oval{
+	margin-left: 100px;
+	height:300px;
+	width:150px;
+	border-radius:75px/150px;
+	background-color:olivedrab;
+}
+.triangular-right{
+	margin-left:50px;
+	width: 0px;
+	height:0px;
+	border-bottom: 150px solid transparent;
+	border-top: 150px solid transparent;
+	border-left: 300px solid rgb(39, 167, 92);
+}
+.triangular-left{
+	width: 0px;
+	height:0px;
+	border-bottom: 150px solid transparent;
+	border-top: 150px solid transparent;
+	border-right: 300px solid rgb(39, 167, 92);
+}
+.icon-work ul{
+	list-style: none;
+	margin-left: 33%;
+}
+.icon-work ul li{
+	display:inline-block;
+}
+.icon-work ul li a{
+	color:white;
+	background-color: rgb(4, 75, 116);
+	padding: 30px 30px;
+	font-size: 60px;
+	display: block;
+	border-radius: 20px;
+}
+.icon-work li a:hover{
+	background-color: transparent;
+	color:rgb(4, 75, 116);
+}
